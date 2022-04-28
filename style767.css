@@ -1,0 +1,391 @@
+* {
+  font-size: 16px;
+}
+
+/* ************** NAV **************** */
+
+#logo {
+  width: 120px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+nav {
+  display: block;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul.liensNav li {
+  display: flex;
+  width: 100%;
+}
+
+nav ul.liensNav li a {
+  flex-grow: 1;
+  display: flex;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 5px;
+  border-top: 0px transparent;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.liensNav li a:hover {
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+  border-bottom: 3px solid #0065FC;
+  border-top: transparent;
+}
+
+/* ********* Titre Intro ************ */
+
+.intro {
+  width: 85%;
+  margin-left: 20px;
+}
+
+.intro h1 {
+  padding-bottom: 2%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.intro p {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 2%;
+  font-size: 18px;
+}
+
+/* ********** NAV BARRE ************* */
+
+.navBarre {
+  justify-content: center;
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.navBarre .loupe input {
+  display: none;
+}
+
+.navBarre .loupe i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background-color: #0065FC;
+  border: none;
+  border-radius: 15px;
+}
+
+.icon1 {
+  width: 50px;
+}
+
+.zoneRecherche {
+  width: 260px;
+}
+
+.button1:hover {
+  color: #DEEBFF;
+  background-color: #0065FC;
+  transition: none;
+}
+
+/* *********** Filtres ************** */
+
+.filtersBorder:nth-child(5) {
+  margin-left: 2%;
+}
+
+.filters h3 {
+  display: inline-block;
+  margin: 5px 0 10px 20px;
+}
+
+.espaceResponsive {
+  width: 100%;
+}
+
+.filtersBorder:hover i {
+  color: #0065FC ;
+  background-color: #DEEBFF;
+  transition: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* *********** Text info ************ */
+
+.infoBarre i {
+  margin: 0 10px 0 20px;
+}
+
+.infoBarre p {
+  margin: 20px 5% 0 0;
+}
+
+.infoBarre {
+  padding-bottom: 0;
+}
+
+/* ******* BLOC Populaires ********** */
+
+#blocPrincipal {
+  margin: 30px 0;
+  height: auto;
+}
+
+.blocPop992 {
+  width: 100%;
+  height: auto;
+  margin: 0 0 30px 0;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 0;
+}
+
+.blocPop992 .popTitleIcon h3,
+.blocPop992 .popTitleIcon i {
+  font-size: 24px;
+  padding: 0;
+  margin: 10px 0 20px 20px;
+  font-weight: 600;
+}
+
+.blocPop992 .popTitleIcon {
+  margin-left: 0;
+}
+
+.BPligne {
+  flex-direction: column;
+}
+
+.boiteBlanche {
+  display: flex;
+  width: 92%;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.imgBloc31 {
+  background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.imgBloc32 {
+  background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.imgBloc33 {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.textPop992 h4,
+.textPop992 p {
+  font-size: 18px;
+  padding: 15px 5px 0 15px;
+}
+
+ul.etoile {
+  position: relative;
+  top: 30px;
+  left: 15px;
+  font-size: 28px;
+  padding-top: 0;
+  margin-top: -25px;
+}
+
+.boiteBlanche .textPop992 .noteEtoile .saut {
+  position: relative;
+  top: 5px;
+  left: 15px;
+  font-size: 28px;
+}
+
+.popTitleIcon i:hover {
+  color: black;
+  transition: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* ******* BLOC Hébergements ********* */
+
+.blocHeber {
+  width: 100%;
+  height: 800px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.BHligne1,
+.BHligne2 {
+  flex-direction: column;
+}
+
+.BHligne1 .boiteBlanche,
+.BHligne2 .boiteBlanche {
+  display: block;
+  height: 230px;
+  box-shadow: 0px 7px 20px 1px #E6DEDE;
+}
+
+.imgBloc11, 
+.imgBloc12, 
+.imgBloc13, 
+.imgBloc14, 
+.imgBloc15, 
+.imgBloc16 {
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.textHebergements {
+  padding-top: 2px;
+}
+
+.textHebergements h4,
+.textHebergements p {
+  font-size: 18px;
+  padding: 5px 5px 0 15px;
+  line-height: normal;
+}
+
+.textHebergements .noteEtoile ul.etoile {
+  margin-top: -38px;
+}
+
+.blocHeber h3 {
+  font-size: 24px;
+  padding: 0;
+  margin: 0px 0 20px 20px;
+  font-weight: 600;
+}
+
+.afficher {
+  font-size: 18px;
+  margin: 10px 0 40px 15px;
+}
+
+.afficher:hover {
+  text-decoration: none;
+  color: black;
+  transition: none;
+}
+
+.boiteBlanche:hover {
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.etoile li {
+  padding-top: 10px;
+}
+
+/* ***** Activités à Marseille ****** */
+
+#activities h3 {
+  padding: 0;
+  margin: -20px 0 20px 20px;
+  font-size: 24px;
+}
+
+.cityActivities {
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+  
+.lieu1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.lieu2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.lieu3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.lieu4 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.lieu5 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.lieu6 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+.imgVieuxPort,
+.imgFortDePomègues,
+.imgIlesDeFrioul,
+.imgParcNationalDesCalanques,
+.imgNotreDamesDeLaGarde,
+.imgParcLongchamp {
+  height: 140px;
+}
+
+.lieu1:hover,
+.lieu2:hover,
+.lieu3:hover,
+.lieu4:hover,
+.lieu5:hover,
+.lieu6:hover {
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* ************ FOOTER ************** */
+
+.contenu-footer {
+  flex-direction: column;
+  height: 420px;
+}
+
+.contenu-footer h3 {
+  margin: 30px 0 18px 0px;
+  padding: 0;
+}

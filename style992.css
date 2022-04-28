@@ -1,0 +1,246 @@
+/* ********* Titre Intro ************ */
+
+.intro h1,
+.intro p {
+  margin: 0 0 0 2%;
+  padding-left: 0%;
+}
+
+/* ********** NAV BARRE ************* */
+
+.navBarre {
+  margin: 2% 0 3% 2%;
+}
+
+/* *********** Filtres ************** */
+
+.filters {
+  flex-wrap: wrap;
+}
+
+.filtersBorder {
+  margin: 1% 2% 0 2%;
+}
+
+.filtersBorder:nth-child(5) {
+  margin-left: 8.8%;
+}
+
+/* ******* BLOC Hébergements ********* */
+
+#blocPrincipal {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 900px;
+}
+
+.blocHeber {
+  width: 99%;
+  height: 300px;
+  margin: 1%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.textHebergements {
+  padding-top: 10px;
+}
+
+/* ******* BLOC Populaires ********** */
+
+.blocPop {
+  width: 99%;
+  height: 700px;
+  margin: 1%;
+}
+
+.case {
+  display: block;
+  flex-direction: row;
+}
+
+.blocPop {
+  display: none;
+}
+
+.blocPop992 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  height: 300px;
+  width: 99%;
+  margin: 1%;
+  border-radius: 15px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.blocPop992 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  padding-top: 1%;
+}
+
+.BPligne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boiteBlanche {
+  width: 31%;
+  height: 206px;
+  background-color: white;
+  padding: 4px;
+  margin: 0 8px 0 8px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px rgb(240, 233, 233);
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.textPop992 {
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 3px;
+}
+
+.textPop992 h4,
+.textPop992 p {
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.imgBloc31 {
+  background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 105px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgBloc32 {
+  background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 105px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgBloc33 {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 105px;
+  border-radius: 15px 15px 0 0;
+}
+
+ul.etoile {
+  margin-top: 10px;
+}
+
+ul.etoile.saut {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* ***** Activités à Marseille ****** */
+
+.cityActivities {
+  height: 800px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.lieu1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.lieu2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.lieu3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.lieu4 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.lieu5 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.lieu6 {
+  grid-area: 3 / 2 / 5 / 3;
+}
+
+.imgVieuxPort {
+  background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgFortDePomègues {
+  background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgIlesDeFrioul {
+  background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgParcNationalDesCalanques {
+  background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgNotreDamesDeLaGarde {
+  background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgParcLongchamp {
+  background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 15px 15px 0 0;
+}
+
+#activities .cityActivities p {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* ************ FOOTER ************** */
+
+.contenu-footer {
+  margin-top: 50px;
+}
